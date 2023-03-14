@@ -1675,24 +1675,38 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
 
-
-                                <Label Content="Eddow" FontSize="16" Margin="5,0"/>
-                                <CheckBox Name="Installpowerbi" Content="Power BI" Margin="5,0"/>
-                                <CheckBox Name="Installpdf24creator" Content="PDF24 Creator" Margin="5,0"/>
-                                <CheckBox Name="Installfilezilla" Content="FileZilla" Margin="5,0"/>
-                                <CheckBox Name="Installdisplaylink" Content="Display Link" Margin="5,0"/>
-                                <CheckBox Name="Installeset" Content="Eset EndpointAntivirus" Margin="5,0"/>
-								<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
-								<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
-								<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
-								<CheckBox Name="Installdbeaver" Content="DBeaver CE" Margin="5,0"/>
-								<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
-								<CheckBox Name="Installoffice" Content="Office" Margin="5,0"/>
-								<CheckBox Name="Installteams" Content="Teams" Margin="5,0"/>
-								<CheckBox Name="Installfirefox" Content="Firefox" Margin="5,0"/>
-								<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
-								<CheckBox Name="Installclickshare" Content="ClickShare" Margin="5,0"/>
-
+<Label Content="Utilities" FontSize="16" Margin="5,0"/>
+                                
+                                <CheckBox Name="Installalacritty" Content="Alacritty Terminal" Margin="5,0"/>
+                                <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
+                                <CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
+                                <CheckBox Name="Installbitwarden" Content="Bitwarden" Margin="5,0"/>
+                                <CheckBox Name="Installcpuz" Content="CPU-Z" Margin="5,0"/>
+                                <CheckBox Name="Installetcher" Content="Etcher USB Creator" Margin="5,0"/>
+                                <CheckBox Name="Installesearch" Content="Everything Search" Margin="5,0"/>
+                                <CheckBox Name="Installflux" Content="f.lux Redshift" Margin="5,0"/>
+                                <CheckBox Name="Installgpuz" Content="GPU-Z" Margin="5,0"/>
+                                <CheckBox Name="Installglaryutilities" Content="Glary Utilities" Margin="5,0"/>
+                                <CheckBox Name="Installhwinfo" Content="HWInfo" Margin="5,0"/>
+                                <CheckBox Name="Installidm" Content="Internet Download Manager" Margin="5,0"/>
+                                <CheckBox Name="Installjdownloader" Content="J Download Manager" Margin="5,0"/>
+                                <CheckBox Name="Installkeepass" Content="KeePassXC" Margin="5,0"/>
+                                <CheckBox Name="Installmalwarebytes" Content="MalwareBytes" Margin="5,0"/>
+                                <CheckBox Name="Installnvclean" Content="NVCleanstall" Margin="5,0"/>
+                                <CheckBox Name="Installopenshell" Content="Open Shell (Start Menu)" Margin="5,0"/>
+                                <CheckBox Name="Installprocesslasso" Content="Process Lasso" Margin="5,0"/>
+                                <CheckBox Name="Installqbittorrent" Content="qBittorrent" Margin="5,0"/>
+                                <CheckBox Name="Installrevo" Content="RevoUninstaller" Margin="5,0"/>
+                                <CheckBox Name="Installrufus" Content="Rufus Imager" Margin="5,0"/>
+                                <CheckBox Name="Installsandboxie" Content="Sandboxie Plus" Margin="5,0"/>
+                                <CheckBox Name="Installshell" Content="Shell (Expanded Context Menu)" Margin="5,0"/>
+                                
+                                <CheckBox Name="Installttaskbar" Content="Translucent Taskbar" Margin="5,0"/>
+                                <CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
+                                <CheckBox Name="Installtwinkletray" Content="Twinkle Tray" Margin="5,0"/>
+                                <CheckBox Name="Installwindirstat" Content="WinDirStat" Margin="5,0"/>
+                                <CheckBox Name="Installwiztree" Content="WizTree" Margin="5,0"/>
+                                
                                 <Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
                                 <CheckBox Name="Installmremoteng" Content="mRemoteNG" Margin="5,0"/>
@@ -1741,37 +1755,25 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installvoicemeeter" Content="Voicemeeter (Audio)" Margin="5,0"/>
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="4" Margin="10">
-                                <Label Content="Utilities" FontSize="16" Margin="5,0"/>
+			    <Label Content="Eddow" FontSize="16" Margin="5,0"/>
+                                <CheckBox Name="Installpowerbi" Content="Power BI" Margin="5,0"/>
+                                <CheckBox Name="Installpdf24creator" Content="PDF24 Creator" Margin="5,0"/>
+                                <CheckBox Name="Installfilezilla" Content="FileZilla" Margin="5,0"/>
+                                <CheckBox Name="Installdisplaylink" Content="Display Link" Margin="5,0"/>
+                                <CheckBox Name="Installeset" Content="Eset EndpointAntivirus" Margin="5,0"/>
+				<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
+				<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
+				<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
+				<CheckBox Name="Installdbeaver" Content="DBeaver CE" Margin="5,0"/>
+				<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
+				<CheckBox Name="Installoffice" Content="Office" Margin="5,0"/>
+				<CheckBox Name="Installteams" Content="Teams" Margin="5,0"/>
+				<CheckBox Name="Installfirefox" Content="Firefox" Margin="5,0"/>
+				<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
+				<CheckBox Name="Installclickshare" Content="ClickShare" Margin="5,0"/>
+				<CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
+
                                 
-                                <CheckBox Name="Installalacritty" Content="Alacritty Terminal" Margin="5,0"/>
-                                <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
-                                <CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
-                                <CheckBox Name="Installbitwarden" Content="Bitwarden" Margin="5,0"/>
-                                <CheckBox Name="Installcpuz" Content="CPU-Z" Margin="5,0"/>
-                                <CheckBox Name="Installetcher" Content="Etcher USB Creator" Margin="5,0"/>
-                                <CheckBox Name="Installesearch" Content="Everything Search" Margin="5,0"/>
-                                <CheckBox Name="Installflux" Content="f.lux Redshift" Margin="5,0"/>
-                                <CheckBox Name="Installgpuz" Content="GPU-Z" Margin="5,0"/>
-                                <CheckBox Name="Installglaryutilities" Content="Glary Utilities" Margin="5,0"/>
-                                <CheckBox Name="Installhwinfo" Content="HWInfo" Margin="5,0"/>
-                                <CheckBox Name="Installidm" Content="Internet Download Manager" Margin="5,0"/>
-                                <CheckBox Name="Installjdownloader" Content="J Download Manager" Margin="5,0"/>
-                                <CheckBox Name="Installkeepass" Content="KeePassXC" Margin="5,0"/>
-                                <CheckBox Name="Installmalwarebytes" Content="MalwareBytes" Margin="5,0"/>
-                                <CheckBox Name="Installnvclean" Content="NVCleanstall" Margin="5,0"/>
-                                <CheckBox Name="Installopenshell" Content="Open Shell (Start Menu)" Margin="5,0"/>
-                                <CheckBox Name="Installprocesslasso" Content="Process Lasso" Margin="5,0"/>
-                                <CheckBox Name="Installqbittorrent" Content="qBittorrent" Margin="5,0"/>
-                                <CheckBox Name="Installrevo" Content="RevoUninstaller" Margin="5,0"/>
-                                <CheckBox Name="Installrufus" Content="Rufus Imager" Margin="5,0"/>
-                                <CheckBox Name="Installsandboxie" Content="Sandboxie Plus" Margin="5,0"/>
-                                <CheckBox Name="Installshell" Content="Shell (Expanded Context Menu)" Margin="5,0"/>
-                                <CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
-                                <CheckBox Name="Installttaskbar" Content="Translucent Taskbar" Margin="5,0"/>
-                                <CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
-                                <CheckBox Name="Installtwinkletray" Content="Twinkle Tray" Margin="5,0"/>
-                                <CheckBox Name="Installwindirstat" Content="WinDirStat" Margin="5,0"/>
-                                <CheckBox Name="Installwiztree" Content="WizTree" Margin="5,0"/>
                                 <Button Name="install" Background="AliceBlue" Content="Start Install" HorizontalAlignment = "Left" Margin="5,0" Padding="20,5" Width="150" ToolTip="Install all checked programs"/>
                                 <Button Name="InstallUpgrade" Background="AliceBlue" Content="Upgrade Installs" HorizontalAlignment = "Left" Margin="5,0,0,5" Padding="20,5" Width="150" ToolTip="Upgrade All Existing Programs on System"/>
 
