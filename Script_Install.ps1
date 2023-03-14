@@ -21,7 +21,7 @@ Add-Type -AssemblyName System.Windows.Forms
 # variable to sync between runspaces
 $sync = [Hashtable]::Synchronized(@{})
 $sync.PSScriptRoot = $PSScriptRoot
-$sync.version = "23.03.07"
+
 $sync.configs = @{}
 $sync.ProcessRunning = $false
 Function Get-WinUtilCheckBoxes {
@@ -1675,7 +1675,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
 
-<Label Content="Utilities" FontSize="16" Margin="5,0"/>
+							<Label Content="Utilities" FontSize="16" Margin="5,0"/>
                                 
                                 <CheckBox Name="Installalacritty" Content="Alacritty Terminal" Margin="5,0"/>
                                 <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
@@ -3919,6 +3919,6 @@ Catch [ChocoFailedInstall]{
     Write-Host "--    Chocolatey failed to install      ---"
     Write-Host "==========================================="
 }
-$form.title = $form.title + " " + $sync.version
+$form.title = $form.title + " "
 $Form.ShowDialog() | out-null
 Stop-Transcript
