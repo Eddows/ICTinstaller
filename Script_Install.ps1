@@ -1772,7 +1772,8 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
 				<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
 				<CheckBox Name="Installclickshare" Content="ClickShare" Margin="5,0"/>
 				<CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
-
+				Write-Host "  "
+				Write-Host "  "
                                 
                                 <Button Name="install" Background="AliceBlue" Content="Start Install" HorizontalAlignment = "Left" Margin="5,0" Padding="20,5" Width="150" ToolTip="Install all checked programs"/>
                                 <Button Name="InstallUpgrade" Background="AliceBlue" Content="Upgrade Installs" HorizontalAlignment = "Left" Margin="5,0,0,5" Padding="20,5" Width="150" ToolTip="Upgrade All Existing Programs on System"/>
