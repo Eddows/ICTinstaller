@@ -1607,7 +1607,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                     <Button Content="Config" HorizontalAlignment="Left" Height="40" Width="100" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
                     <Button Content="Updates" HorizontalAlignment="Left" Height="40" Width="100" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
                 </DockPanel>
-                <TabControl Grid.Row="1" Padding="-1" Name="TabNav" Background="#222222">
+              <TabControl Grid.Row="1" Padding="-1" Name="TabNav" Background="#222222">
                     <TabItem Header="Install" Visibility="Collapsed" Name="Tab1">
                         <Grid Background="#222222">
                             <Grid.ColumnDefinitions>
@@ -1623,15 +1623,13 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
                                 <Label Content="Browsers" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
-                                <CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
+                                
                                 <CheckBox Name="Installchromium" Content="Chromium" Margin="5,0"/>
                                 <CheckBox Name="Installedge" Content="Edge" Margin="5,0"/>
-                                <CheckBox Name="Installfirefox" Content="Firefox" Margin="5,0"/>
                                 <CheckBox Name="Installlibrewolf" Content="LibreWolf" Margin="5,0"/>
                                 <CheckBox Name="Installtor" Content="Tor Browser" Margin="5,0"/>
                                 <CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
                                 <CheckBox Name="Installwaterfox" Content="Waterfox" Margin="5,0"/>
-
                                 <Label Content="Communications" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
                                 <CheckBox Name="Installhexchat" Content="Hexchat" Margin="5,0"/>
@@ -1640,7 +1638,6 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installsignal" Content="Signal" Margin="5,0"/>
                                 <CheckBox Name="Installskype" Content="Skype" Margin="5,0"/>
                                 <CheckBox Name="Installslack" Content="Slack" Margin="5,0"/>
-                                <CheckBox Name="Installteams" Content="Teams" Margin="5,0"/>
                                 <CheckBox Name="Installtelegram" Content="Telegram" Margin="5,0"/>
                                 <CheckBox Name="Installviber" Content="Viber" Margin="5,0"/>
                                 <CheckBox Name="Installzoom" Content="Zoom" Margin="5,0"/>
@@ -1666,11 +1663,9 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installvscodium" Content="VS Codium" Margin="5,0"/>
 
                                 <Label Content="Document" FontSize="16" Margin="5,0"/>
-                                <CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
+                                
                                 <CheckBox Name="Installfoxpdf" Content="Foxit PDF" Margin="5,0"/>
                                 <CheckBox Name="Installjoplin" Content="Joplin (FOSS Notes)" Margin="5,0"/>
-                                <CheckBox Name="Installlibreoffice" Content="LibreOffice" Margin="5,0"/>
-                                <CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
                                 <CheckBox Name="Installobsidian" Content="Obsidian" Margin="5,0"/>
                                 <CheckBox Name="Installonlyoffice" Content="ONLYOffice Desktop" Margin="5,0"/>
                                 <CheckBox Name="Installopenoffice" Content="Apache OpenOffice" Margin="5,0"/>
@@ -1681,12 +1676,22 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
 
 
-                                <Label Content="Games" FontSize="16" Margin="5,0"/>
-                                <CheckBox Name="Installbluestacks" Content="Bluestacks" Margin="5,0"/>
-                                <CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
-                                <CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
-                                <CheckBox Name="Installorigin" Content="Origin" Margin="5,0"/>
-                                <CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
+                                <Label Content="Eddow" FontSize="16" Margin="5,0"/>
+                                <CheckBox Name="Installpowerbi" Content="Power BI" Margin="5,0"/>
+                                <CheckBox Name="Installpdf24creator" Content="PDF24 Creator" Margin="5,0"/>
+                                <CheckBox Name="Installfilezilla" Content="FileZilla" Margin="5,0"/>
+                                <CheckBox Name="Installdisplaylink" Content="Display Link" Margin="5,0"/>
+                                <CheckBox Name="Installeset" Content="Eset EndpointAntivirus" Margin="5,0"/>
+								<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
+								<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
+								<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
+								<CheckBox Name="Installdbeaver" Content="DBeaver CE" Margin="5,0"/>
+								<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
+								<CheckBox Name="Installoffice" Content="Office" Margin="5,0"/>
+								<CheckBox Name="Installteams" Content="Teams" Margin="5,0"/>
+								<CheckBox Name="Installfirefox" Content="Firefox" Margin="5,0"/>
+								<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
+								<CheckBox Name="Installclickshare" Content="ClickShare" Margin="5,0"/>
 
                                 <Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
@@ -1694,7 +1699,6 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installputty" Content="Putty" Margin="5,0"/>
                                 <CheckBox Name="Installrustdesk" Content="Rust Remote Desktop (FOSS)" Margin="5,0"/>
                                 <CheckBox Name="Installsimplewall" Content="SimpleWall" Margin="5,0"/>
-                                <CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
                                 <CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
 
                                 <Label Content="Microsoft Tools" FontSize="16" Margin="5,0"/>
@@ -1721,11 +1725,9 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installflameshot" Content="Flameshot (Screenshots)" Margin="5,0"/>
                                 <CheckBox Name="Installfoobar" Content="Foobar2000 (Music Player)" Margin="5,0"/>
                                 <CheckBox Name="Installgimp" Content="GIMP (Image Editor)" Margin="5,0"/>
-                                <CheckBox Name="Installgreenshot" Content="Greenshot (Screenshots)" Margin="5,0"/>
                                 <CheckBox Name="Installhandbrake" Content="HandBrake" Margin="5,0"/>
                                 <CheckBox Name="Installimageglass" Content="ImageGlass (Image Viewer)" Margin="5,0"/>
                                 <CheckBox Name="Installinkscape" Content="Inkscape" Margin="5,0"/>
-                                <CheckBox Name="Installitunes" Content="iTunes" Margin="5,0"/>
                                 <CheckBox Name="Installkdenlive" Content="Kdenlive (Video Editor)" Margin="5,0"/>
                                 <CheckBox Name="Installkodi" Content="Kodi Media Center" Margin="5,0"/>
                                 <CheckBox Name="Installklite" Content="K-Lite Codec Standard" Margin="5,0"/>
@@ -1740,7 +1742,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                             </StackPanel>
                             <StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="4" Margin="10">
                                 <Label Content="Utilities" FontSize="16" Margin="5,0"/>
-                                <CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
+                                
                                 <CheckBox Name="Installalacritty" Content="Alacritty Terminal" Margin="5,0"/>
                                 <CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
                                 <CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
@@ -1986,9 +1988,9 @@ $sync.configs.applications = '{
     "winget": "File-New-Project.EarTrumpet",
     "choco": "eartrumpet"
   },
-  "WPFInstallepicgames": {
-    "winget": "EpicGames.EpicGamesLauncher",
-    "choco": "epicgameslauncher"
+  "WPFInstallpdf24creator": {
+    "winget": "geeksoftwareGmbH.PDF24Creator",
+    "choco": "pdf24"
   },
   "WPFInstallesearch": {
     "winget": "voidtools.Everything",
@@ -2018,17 +2020,17 @@ $sync.configs.applications = '{
     "winget": "Git.Git;GitHub.GitHubDesktop",
     "choco": "git;github-desktop"
   },
-  "WPFInstallgog": {
-    "winget": "GOG.Galaxy",
-    "choco": "goggalaxy"
+  "WPFInstallfilezilla": {
+    "winget": "filezilla",
+    "choco": "filezilla"
   },
   "WPFInstallgpuz": {
     "winget": "TechPowerUp.GPU-Z",
     "choco": "gpu-z"
   },
-  "WPFInstallgreenshot": {
-    "winget": "Greenshot.Greenshot",
-    "choco": "greenshot"
+  "WPFInstalldbeaver": {
+    "winget": "9PNKDR50694P",
+    "choco": "dbeaver"
   },
   "WPFInstallhandbrake": {
     "winget": "HandBrake.HandBrake",
@@ -2166,9 +2168,9 @@ $sync.configs.applications = '{
     "winget": "SlackTechnologies.Slack",
     "choco": "slack"
   },
-  "WPFInstallsteam": {
-    "winget": "Valve.Steam",
-    "choco": "steam-client"
+  "WPFInstalleset": {
+    "winget": "ESET.EndpointAntivirus",
+    "choco": "eset-antivirus"
   },
   "WPFInstallsublime": {
     "winget": "SublimeHQ.SublimeText.4",
@@ -2238,9 +2240,9 @@ $sync.configs.applications = '{
     "winget": "Zoom.Zoom",
     "choco": "zoom"
   },
-  "WPFInstalllibreoffice": {
-    "winget": "TheDocumentFoundation.LibreOffice",
-    "choco": "libreoffice-fresh"
+  "WPFInstalloffice": {
+    "winget": "Microsoft.Office",
+    "choco": "na"
   },
   "WPFInstallshell": {
     "winget": "Nilesoft.Shell",
@@ -2294,9 +2296,9 @@ $sync.configs.applications = '{
     "winget": "flux.flux",
     "choco": "flux"
   },
-  "WPFInstallitunes": {
-    "winget": "Apple.iTunes",
-    "choco": "itunes"
+  "WPFInstallclickshare": {
+    "winget": "clickshare-desktop",
+    "choco": "clickshare-desktop"
   },
   "WPFInstallcider": {
     "winget": "CiderCollective.Cider",
@@ -2394,17 +2396,17 @@ $sync.configs.applications = '{
     "winget": "qBittorrent.qBittorrent",
     "choco": "qbittorrent"
   },
-  "WPFInstallorigin": {
-    "winget": "ElectronicArts.EADesktop",
-    "choco": "origin"
+  "WPFInstalldisplaylink": {
+    "winget": "DisplayLink.GraphicsDriver",
+    "choco": "displaylink"
   },
   "WPFInstallopenshell": {
     "winget": "Open-Shell.Open-Shell-Menu",
     "choco": "open-shell"
   },
-  "WPFInstallbluestacks": {
-    "winget": "BlueStack.BlueStacks",
-    "choco": "na"
+  "WPFInstallpowerbi": {
+    "winget": "Microsoft.PowerBI",
+    "choco": "powerbi"
   },
   "WPFInstallstrawberry": {
     "winget": "StrawberryMusicPlayer.Strawberry",
