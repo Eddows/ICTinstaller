@@ -1692,6 +1692,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
 								<CheckBox Name="Installfirefox" Content="Firefox" Margin="5,0"/>
 								<CheckBox Name="Installchrome" Content="Chrome" Margin="5,0"/>
 								<CheckBox Name="Installclickshare" Content="ClickShare" Margin="5,0"/>
+								<CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
 
                                 <Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
                                 <CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
@@ -1766,7 +1767,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
                                 <CheckBox Name="Installrufus" Content="Rufus Imager" Margin="5,0"/>
                                 <CheckBox Name="Installsandboxie" Content="Sandboxie Plus" Margin="5,0"/>
                                 <CheckBox Name="Installshell" Content="Shell (Expanded Context Menu)" Margin="5,0"/>
-                                <CheckBox Name="Installteamviewer" Content="TeamViewer" Margin="5,0"/>
+                                
                                 <CheckBox Name="Installttaskbar" Content="Translucent Taskbar" Margin="5,0"/>
                                 <CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
                                 <CheckBox Name="Installtwinkletray" Content="Twinkle Tray" Margin="5,0"/>
@@ -2029,7 +2030,7 @@ $sync.configs.applications = '{
     "choco": "gpu-z"
   },
   "WPFInstalldbeaver": {
-    "winget": "9PNKDR50694P",
+    "winget": "dbeaver.dbeaver",
     "choco": "dbeaver"
   },
   "WPFInstallhandbrake": {
