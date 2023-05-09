@@ -161,7 +161,7 @@ Function Install-WinUtilProgramWinget {
     Foreach ($Program in $($ProgramsToInstall -split ",")){
     
         Write-Progress -Activity "Installing Applications" -Status "Installing $Program $($x + 1) of $count" -PercentComplete $($x/$count*100)
-        Start-Process -FilePath winget -ArgumentList "install -e --accept-source-agreements --accept-package-agreements --silent $Program" -NoNewWindow -Wait;
+        Start-Process -FilePath winget -ArgumentList "install -e --accept-source-agreements --accept-package-agreements --silent --scope machine $Program" -NoNewWindow -Wait;
         $X++
     }
 
