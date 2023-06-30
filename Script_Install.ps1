@@ -2186,7 +2186,7 @@ $sync.configs.applications = '{
     "choco": "microsoft-teams"
   },
   "WPFInstallteamviewer": {
-    "winget": "TeamViewer.TeamViewer",
+    "winget": "XPDM17HK323C4X",
     "choco": "teamviewer9"
   },
   "WPFInstallterminal": {
